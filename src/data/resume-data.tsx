@@ -1,21 +1,10 @@
 import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
   ClevertechLogo,
   ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
   JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
   MonitoLogo,
   NSNLogo,
   ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
@@ -31,6 +20,17 @@ export const RESUME_DATA = {
   avatarUrl:
     "https://media.licdn.com/dms/image/C4D03AQHvzXIBprD7Jw/profile-displayphoto-shrink_400_400/0/1659526447945?e=1710979200&v=beta&t=wUiHXXBbICu-GGFE8wOY-TxAruftul3DhkErL5zCbpE",
   personalWebsiteUrl: "https://rohitnandi.xyz",
+    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
+  summary: (
+    <>
+      Frontend-focused Full Stack Engineer specializing in high-performance
+      React applications, scalable Node.js services, and real-time collaboration
+      systems. Experienced in technical architecture design and remote team
+      leadership.
+    </>
+  ),
+  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
+  personalWebsiteUrl: "https://jarocki.me",
   contact: {
     email: "rohitnandi01234@gmail.com",
     tel: "+919564240093",
@@ -62,55 +62,172 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Wipro",
-      link: "https://www.wipro.com/",
-      badges: ["In-Office"],
-      title: "Backend Developer",
-      logo: ClevertechLogo,
-      start: "2023",
-      end: "Ongoing",
-      description:
-        "Created scalable and robust software solution. Developed, maintained REST APIs and middlewares. Technologies: NodeJS, Express, Fastify, AWS, TypeScript, GraphQL, Postgressql, Prisma",
+      company: "Film.io",
+      link: "https://film.io",
+      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js"],
+      title: "Software Architect",
+      logo: ConsultlyLogo,
+      start: "2024",
+      end: null,
+      description: (
+        <>
+          Leading technical architecture of a blockchain-based film funding
+          platform.
+          <ul className="list-inside list-disc">
+            <li>
+              Architecting migration from CRA to Next.js for improved
+              performance, SEO, and DX
+            </li>
+            <li>
+              Established release process enabling faster deployments and
+              reliable rollbacks
+            </li>
+            <li>
+              Implementing system-wide monitoring and security improvements
+            </li>
+          </ul>
+        </>
+      ),
     },
     {
-      company: "Wipro",
-      link: "https://www.wipro.com/",
-      badges: ["Remote"],
-      title: "Full Stack Developer",
-      logo: ParabolLogo, //change
-      start: "2022",
-      end: "2023",
+      company: "Parabol",
+      link: "https://parabol.co",
+      badges: [
+        "Remote",
+        "React",
+        "TypeScript",
+        "Node.js",
+        "GraphQL",
+        "Tailwind CSS",
+      ],
+      title: "Senior Full Stack Developer",
+      logo: ParabolLogo,
+      start: "2021",
+      end: "2024",
+      description: (
+        <>
+          Senior developer and squad leader for an enterprise agile meeting
+          platform.
+          <ul className="list-inside list-disc">
+            <li>
+              Built design system with Tailwind CSS, improving development speed
+              and time to market
+            </li>
+            <li>
+              Implemented engineering practices: PR automation, code review
+              guidelines, and workflows
+            </li>
+            <li>
+              Open source contributions to Relay DevTools and React i18n tooling
+            </li>
+          </ul>
+        </>
+      ),
+    },
+    {
+      company: "Clevertech",
+      link: "https://clevertech.biz",
+      badges: ["Remote", "React", "TypeScript", "Node.js", "Android", "Kotlin"],
+      title: "Lead Android Developer → Full Stack Developer",
+      logo: ClevertechLogo,
+      start: "2015",
+      end: "2021",
+      description: (
+        <>
+          Successfully transitioned from mobile to full-stack development while
+          leading distributed teams.
+          <ul className="list-inside list-disc">
+            <li>
+              Led frontend team at Evercast, building real-time platform
+              supporting 30+ users per room with HD streaming and collaboration
+              tools
+            </li>
+            <li>
+              Developed offline-first Android app for DKMS, improving donor
+              registration process
+            </li>
+            <li>
+              Led development teams across multiple successful client projects
+            </li>
+          </ul>
+        </>
+      ),
+    },
+    {
+      company: "Jojo Mobile",
+      link: "https://bsgroup.eu/",
+      badges: ["On Site", "Android", "Java", "Kotlin"],
+      title: "Android Developer → Lead Android Developer",
+      logo: JojoMobileLogo,
+      start: "2012",
+      end: "2015",
+      description: (
+        <>
+          First Android developer, grew and led a team of 15+ engineers while
+          establishing engineering culture.
+          <ul className="list-inside list-disc">
+            <li>
+              Developed apps for major Polish companies including LOT, Polskie
+              Radio, and Agora
+            </li>
+            <li>Built and mentored high-performing mobile development team</li>
+          </ul>
+        </>
+      ),
+    },
+    {
+      company: "Nokia Siemens Networks",
+      link: "https://www.nokia.com",
+      badges: ["On Site", "C/C++", "LTE", "Agile"],
+      title: "C/C++ Developer",
+      logo: NSNLogo,
+      start: "2010",
+      end: "2012",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
     },
   ],
   skills: [
-    "JavaScript",
+    "React/Next.js/Remix",
     "TypeScript",
+    "Tailwind CSS",
+    "Design Systems",
+    "WebRTC",
+    "WebSockets",
     "Node.js",
     "Express.js",
     "Fastify",
     "GraphQL",
-    "React/Next.js",
-    "AWS",
-    "Postgressql",
-    "Prisma",
-    "MongoDB",
+    "Relay",
+    "System Architecture",
+    "Remote Team Leadership",
   ],
   projects: [
     {
-      title: "Hangout Server",
+      title: "Monito",
+      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
+      description:
+        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
+      logo: MonitoLogo,
+      link: {
+        label: "monito.dev",
+        href: "https://monito.dev/",
+      },
+    },
+    {
+      title: "Consultly",
       techStack: [
-        "Side Project",
         "TypeScript",
         "Next.js",
-        "Prisma",
-        "postgressql",
-        "Websocket",
-        "Webhooks",
-        "Auth.js",
+        "Vite",
+        "GraphQL",
+        "WebRTC",
+        "Tailwind CSS",
+        "PostgreSQL",
+        "Redis",
       ],
-      description: "A platform to communicate with peers/ Clone of Discord",
+      description:
+        "Platform for online consultations with real-time video meetings and scheduling",
       logo: ConsultlyLogo,
       link: {
         label: "discord-rohit.vercel.app",
@@ -118,39 +235,14 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Ecommerce Store",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Redux", "Strapi"],
-      description: "An ecommerce store for buying shoes/ NIKE store clone",
+      title: "Minimalist CV",
+      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
+      description:
+        "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
       logo: MonitoLogo,
       link: {
-        label: "rohit-nike.vercel.app",
-        href: "https://rohit-nike.vercel.app/",
-      },
-    },
-    {
-      title: "IRCTC Extension",
-      techStack: [
-        "Side Project",
-        "React.js",
-        "Typescript",
-        "Browser Extension",
-      ],
-      description:
-        "Browser extension that helps people to prefil their data while booking Tatkal tickets",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://github.com/RockingThor/irctcExtension",
-      },
-    },
-    {
-      title: "Rick and Morti Wiki",
-      techStack: ["Side Project", "React.js", "Javascript"],
-      description: "An Wiki for Rick and Morti characters",
-      logo: Minimal,
-      link: {
-        label: "github.com",
-        href: "https://github.com/RockingThor/Rick-Morty-Wiki",
+        label: "Minimalist CV",
+        href: "https://github.com/BartoszJarocki/cv",
       },
     },
   ],
