@@ -11,26 +11,21 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 export const RESUME_DATA = {
   name: "Rohit Nandi",
   initials: "RN",
-  location: "Bangalore, India",
-  locationLink: "https://www.google.com/maps/place/Bangalore",
+  location: "Kolkata, India",
+  locationLink: "https://maps.app.goo.gl/eCFM3dHXMm9C5aa19",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
-  summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 2 years of experience in working with companies all around the world.",
-  avatarUrl:
-    "https://media.licdn.com/dms/image/C4D03AQHvzXIBprD7Jw/profile-displayphoto-shrink_400_400/0/1659526447945?e=1710979200&v=beta&t=wUiHXXBbICu-GGFE8wOY-TxAruftul3DhkErL5zCbpE",
-  personalWebsiteUrl: "https://rohitnandi.xyz",
     "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
   summary: (
     <>
       Frontend-focused Full Stack Engineer specializing in high-performance
       React applications, scalable Node.js services, and real-time collaboration
       systems. Experienced in technical architecture design and remote team
-      leadership.
+      collaboration.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl:
+    "https://scontent.fccu16-1.fna.fbcdn.net/v/t39.30808-6/466360951_1204196907323741_6742943793329444171_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=w6Da-rx0Fy0Q7kNvgHGW8Fh&_nc_zt=23&_nc_ht=scontent.fccu16-1.fna&_nc_gid=AYcmr63GtBimW_1rOPli5Uy&oh=00_AYCggPIsGz0WszwrhNairW0fvPU0OFttKoNxuocUfyP7Xg&oe=67547319",
+  personalWebsiteUrl: "https://rohitnandi.com",
   contact: {
     email: "rohitnandi01234@gmail.com",
     tel: "+919564240093",
@@ -47,7 +42,7 @@ export const RESUME_DATA = {
       },
       {
         name: "X",
-        url: "https://twitter.com/oirohit",
+        url: "https://x.com/oirohit",
         icon: XIcon,
       },
     ],
@@ -62,188 +57,134 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js"],
-      title: "Software Architect",
-      logo: ConsultlyLogo,
+      company: "Groundzero",
+      link: "https://parabol.co",
+      badges: ["Remote", "React", "Node.js"],
+      title: "Senior Software Engineer",
+      logo: ParabolLogo,
       start: "2024",
       end: null,
       description: (
         <>
-          Leading technical architecture of a blockchain-based film funding
-          platform.
-          <ul className="list-inside list-disc">
-            <li>
-              Architecting migration from CRA to Next.js for improved
-              performance, SEO, and DX
-            </li>
-            <li>
-              Established release process enabling faster deployments and
-              reliable rollbacks
-            </li>
-            <li>
-              Implementing system-wide monitoring and security improvements
-            </li>
-          </ul>
+          Senior Software Engineer at Groundzero. Working on a cutting-edge data
+          analytics platform that empowers businesses to unlock the power of
+          their data.
         </>
       ),
     },
     {
-      company: "Parabol",
-      link: "https://parabol.co",
+      company: "Wipro",
+      link: "https://www.nokia.com",
       badges: [
-        "Remote",
+        "On Site",
         "React",
-        "TypeScript",
-        "Node.js",
-        "GraphQL",
-        "Tailwind CSS",
+        "Typescript",
+        "Node.JS",
+        "AWS",
+        "Jest",
+        "Agile",
       ],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
+      title: "Frontend Developer → Fullstack Developer",
+      logo: NSNLogo,
+      start: "2022",
       end: "2024",
       description: (
         <>
-          Senior developer and squad leader for an enterprise agile meeting
-          platform.
+          Started as a frontend developer, switched to fullstack development.
           <ul className="list-inside list-disc">
             <li>
-              Built design system with Tailwind CSS, improving development speed
-              and time to market
+              Developed and optimized over 50 responsive web pages using ReactJS
+              and Next.js, ensuring seamless performance across all devices.
             </li>
             <li>
-              Implemented engineering practices: PR automation, code review
-              guidelines, and workflows
+              Delivered a complex 9-page claim form using React.js (frontend)
+              and Node.js (backend), reducing user submission errors by 30%
+              through intuitive UI design and robust server-side logic.
+            </li>
+
+            <li>
+              Leveraged Redux and Context API for dynamic state handling,
+              ensuring glitch-free performance for over 200,000 daily users
             </li>
             <li>
-              Open source contributions to Relay DevTools and React i18n tooling
+              {" "}
+              Implemented robust security features, resolving 95% of identified
+              vulnerabilities, and ensuring compliance with GDPR and ISO27001
+              standards
+            </li>
+            <li>
+              Integrated Jest-based automated testing and GitHub Actions
+              pipelines, reducing deployment errors by 50%.
+            </li>
+            <li>
+              Reduced server resource utilization by 35% by implementing caching
+              mechanisms (Redis) and optimizing database queries in Node.js
             </li>
           </ul>
         </>
       ),
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote", "React", "TypeScript", "Node.js", "Android", "Kotlin"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description: (
-        <>
-          Successfully transitioned from mobile to full-stack development while
-          leading distributed teams.
-          <ul className="list-inside list-disc">
-            <li>
-              Led frontend team at Evercast, building real-time platform
-              supporting 30+ users per room with HD streaming and collaboration
-              tools
-            </li>
-            <li>
-              Developed offline-first Android app for DKMS, improving donor
-              registration process
-            </li>
-            <li>
-              Led development teams across multiple successful client projects
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: ["On Site", "Android", "Java", "Kotlin"],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description: (
-        <>
-          First Android developer, grew and led a team of 15+ engineers while
-          establishing engineering culture.
-          <ul className="list-inside list-disc">
-            <li>
-              Developed apps for major Polish companies including LOT, Polskie
-              Radio, and Agora
-            </li>
-            <li>Built and mentored high-performing mobile development team</li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: ["On Site", "C/C++", "LTE", "Agile"],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description:
-        "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
     },
   ],
   skills: [
-    "React/Next.js/Remix",
+    "React/Next.js",
     "TypeScript",
+    "Javascript",
+    "CSS",
     "Tailwind CSS",
     "Design Systems",
     "WebRTC",
     "WebSockets",
     "Node.js",
-    "Express.js",
-    "Fastify",
     "GraphQL",
-    "Relay",
+    "Redis",
+    "PostgreSQL",
+    "AWS",
+    "MongoDB",
+    "Docker",
     "System Architecture",
-    "Remote Team Leadership",
   ],
   projects: [
     {
-      title: "Monito",
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
+      title: "Hangout Server",
+      techStack: ["TypeScript", "Next.js", "AWS", "PostgreSQL"],
       description:
-        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
+        "A full-stack hangout platform, built with Next.js, AWS, and PostgreSQL",
       logo: MonitoLogo,
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "rohitnandi.com",
+        href: "https://github.com/RockingThor",
       },
     },
-    {
-      title: "Consultly",
-      techStack: [
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-        "Tailwind CSS",
-        "PostgreSQL",
-        "Redis",
-      ],
-      description:
-        "Platform for online consultations with real-time video meetings and scheduling",
-      logo: ConsultlyLogo,
-      link: {
-        label: "discord-rohit.vercel.app",
-        href: "https://discord-rohit.vercel.app/",
-      },
-    },
-    {
-      title: "Minimalist CV",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
-      description:
-        "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
-      logo: MonitoLogo,
-      link: {
-        label: "Minimalist CV",
-        href: "https://github.com/BartoszJarocki/cv",
-      },
-    },
+    // {
+    //   title: "Consultly",
+    //   techStack: [
+    //     "TypeScript",
+    //     "Next.js",
+    //     "Vite",
+    //     "GraphQL",
+    //     "WebRTC",
+    //     "Tailwind CSS",
+    //     "PostgreSQL",
+    //     "Redis",
+    //   ],
+    //   description:
+    //     "Platform for online consultations with real-time video meetings and scheduling",
+    //   logo: ConsultlyLogo,
+    //   link: {
+    //     label: "consultly.com",
+    //     href: "https://consultly.com/",
+    //   },
+    // },
+    // {
+    //   title: "Minimalist CV",
+    //   techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
+    //   description:
+    //     "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
+    //   logo: MonitoLogo,
+    //   link: {
+    //     label: "Minimalist CV",
+    //     href: "https://github.com/BartoszJarocki/cv",
+    //   },
+    // },
   ],
 } as const;
